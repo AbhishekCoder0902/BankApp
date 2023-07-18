@@ -25,9 +25,9 @@ public class Customer {
     }
     public String basicInfo() {
         return "\nCustomer Info. \n"
-                + "First Name: " + firstName
-                + "Last Name: " + lastName
-                + "Aadhar Number: " + an
+                + "First Name: " + firstName + "\n"
+                + "Last Name: " + lastName +" \n"
+                + "Aadhar Number: " + an +"\n"
                 + "Account Number: "+  account.getAccountNumber();
                 
     }
